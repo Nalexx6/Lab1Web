@@ -1,0 +1,12 @@
+/*Main styles*/
+
+.main-wrapper{
+
+}
+
+#main-header{
+	display: block;
+	width: 100%;
+	min-height: 200px;
+	background-color: white;
+}
