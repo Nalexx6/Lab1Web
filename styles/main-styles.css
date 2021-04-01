@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0px;
+
+    background-image: url("https://uclbranding.uefa.com/assets/img/carousel-1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-container {
+    display: block;
+    width: 980px;
+    height: 100%;
+    margin: auto;
+    padding: 0 10px;
+
+}

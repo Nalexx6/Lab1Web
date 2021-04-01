@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+/*'PT Sans Narrow'*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+#main-header {
+    display: block;
+    width: 100%;
+    min-height: 200px;
+    background-color: #f6f6f6;
+    margin: 0px;
+}
+
+#main-header-content {
+    color: #010739;
+}
+
+#title-holder {
+    float: left;
+    display: flex;
+    align-items: stretch;
+    margin: 10px 0;
+}
+
+#logo {
+    width: 200px;
+    height: 150px;
+}
+
+#title-text {
+    font-family: "Oxygen", sans-serif;
+    position: relative;
+}
+
+#title {
+    margin: 30px 5px;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#subtitle {
+    margin: 20px 5px;
+    position: absolute;
+    bottom: 0;
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+#feedback-info-holder {
+    float: right;
+    margin-top: 10px;
+}
+
+.contact-item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2.2em;
+    line-height: 1.2em;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#feedback-form-link {
+    margin-top: 10px;
+    font-size: 1.5em;
+    border-bottom: 2px dashed #42213D;
+    float: right;
+    transition: all 0.15s 0s ease-in-out;
+    cursor: pointer;
+}
+
+#feedback-form-link:hover {
+    color: #395ae1;
+    border-bottom-color: #395ae1;
+}
+
+#feedback-form-link:active {
+    color: #395ae1;
+    border-bottom-color: #395ae1;
+}

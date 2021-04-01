@@ -1,0 +1,27 @@
+#main-footer {
+    display: block;
+    width: 100%;
+    background-color: #010739;
+}
+
+#main-footer-content {
+    display: flex;
+    justify-content: space-between;
+    color: #f6f6f6;
+}
+
+#main-footer-content > div{
+    padding: 20px 0;
+}
+
+#main-footer-content a{
+    color: #f6f6f6;
+}
+
+#main-footer-content a:hover{
+    color: #395ae1;
+}
+
+#main-footer-content ul{
+    list-style-type: none;
+}
