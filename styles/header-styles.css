@@ -1,27 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
-/*'PT Sans Narrow'*/
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
-
-#main-header {
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=PT+Sans:ital@1&display=swap');
+/*PT Sans + Oxygen(for title)*/
+#header {
     display: block;
     width: 100%;
-    min-height: 200px;
+    min-height: 180px;
     background-color: #f6f6f6;
     margin: 0px;
 }
 
-#main-header-content {
+#header-content {
     color: #010739;
 }
 
-#title-holder {
+#title-block {
     float: left;
     display: flex;
     align-items: stretch;
     margin: 10px 0;
 }
 
-#logo {
+#logo-img {
     width: 200px;
     height: 150px;
 }
@@ -33,7 +31,7 @@
 
 #title {
     margin: 30px 5px;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
 }
 
@@ -45,20 +43,20 @@
     line-height: 1.4em;
 }
 
-#feedback-info-holder {
+#feedback-block {
     float: right;
     margin-top: 10px;
 }
 
-.contact-item {
+.contact {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 2.2em;
+    font-size: 1.5em;
     line-height: 1.2em;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: "PT Sans", sans-serif;
 }
 
-#feedback-form-link {
+#feedback-form-button {
     margin-top: 10px;
     font-size: 1.5em;
     border-bottom: 2px dashed #42213D;
@@ -67,12 +65,7 @@
     cursor: pointer;
 }
 
-#feedback-form-link:hover {
-    color: #395ae1;
-    border-bottom-color: #395ae1;
-}
-
-#feedback-form-link:active {
+#feedback-form-button:hover {
     color: #395ae1;
     border-bottom-color: #395ae1;
 }

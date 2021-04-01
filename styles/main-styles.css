@@ -22,7 +22,7 @@ body {
     justify-content: space-between;
 }
 
-.content-container {
+.content-block {
     display: block;
     width: 980px;
     height: 100%;

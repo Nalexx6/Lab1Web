@@ -1,0 +1,24 @@
+#path {
+    display: block;
+}
+
+#path-content {
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+}
+
+#path-content a {
+    color: #010739;
+    text-decoration: none;
+}
+
+#path-content .item-separator {
+    display: inline-block;
+    color: #010739;
+
+}
+
+#path-content a:hover {
+    color: #395ae1;
+}

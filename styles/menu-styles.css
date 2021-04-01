@@ -1,36 +1,37 @@
-#main-menu {
+#menu {
     display: block;
     width: 100%;
     background-color: #010739;
 }
 
-#main-menu-content {
+#menu-content {
     text-align: center;
 }
 
-#main-menu-content ul{
+#menu-content ul{
     margin: 0px;
 }
-#main-menu-content li {
+#menu-content li {
     display: inline-block;
     position: relative;
     box-sizing: content-box;
     margin: 15px 0;
 }
 
-#main-menu-content .menu-items-separator {
-    display: inline-block;
-    color: #f6f6f6;
-    margin: 0 17px;
-}
-
-#main-menu-content li a {
+#menu-content li a {
     color: #f6f6f6;
     font-size: 1.4em;
     text-decoration: none;
     transition: color 0.12s 0s ease-in;
 }
 
-#main-menu-content li:hover a {
+#menu-content li:hover a {
     color: #395ae1;
+}
+
+#menu-content .items-separator {
+    display: inline-block;
+    color: #f6f6f6;
+    font-size: 2em;
+    margin: 0 17px;
 }

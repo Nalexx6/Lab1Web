@@ -1,30 +1,4 @@
-#path {
-    display: block;
-}
-
-#path-content {
-    height: 40px;
-    line-height: 40px;
-    background-color: #ffffff;
-}
-
-#path-content a {
-    color: #010739;
-    text-decoration: none;
-}
-
-#path-content .path-item-separator {
-    display: inline-block;
-    color: #010739;
-
-}
-
-#path-content a:hover {
-    color: #395ae1;
-}
-
-
-#main-content {
+#content {
     display: flex;
     align-items: stretch;
     padding-top: 15px;
@@ -34,7 +8,7 @@
 }
 
 /*left side content*/
-#aside-container {
+#left-block {
     width: 20%;
     padding-left: auto;
 }
@@ -45,14 +19,14 @@
     overflow: hidden;
 }
 
-.category-title {
+.category-name {
     font-size: 1.4em;
     cursor: pointer;
     color: #2e2b53;
     transition: color 0.15s 0s ease-in-out;
 }
 
-.category-title:hover {
+.category-name:hover {
     color: #395ae1;
 }
 
@@ -75,7 +49,7 @@
     color: #395ae1;
 }
 
-#price-list-download-link {
+#price-list-download-button {
     font-size: 1.4em;
     color: #2e2b53;
     font-weight: bold;
@@ -83,24 +57,23 @@
     transition: all 0.15s 0s ease;
 }
 
-#price-list-download-link:hover {
-    transform: scale(1.1);
-    color: #395ae1;
-}
-
-#price-list-download-link img{
+#price-list-download-button img{
     display: block;
     width: 50%;
     margin: auto;
 }
 
+#price-list-download-button:hover {
+    color: #395ae1;
+}
+
 /*center content: */
-#center {
+#center-block {
     flex: 1;
     color: #2e2b53;
 }
 
-#catalog-pages-holder {
+#catalog-page-block {
     width: 100%;
     position: relative;
 }
@@ -113,7 +86,7 @@
     justify-content: space-between;
 }
 
-.product-card {
+.product {
     position: relative;
     width: 250px;
     height: 350px;
@@ -123,18 +96,18 @@
     transition: all 0.2s 0s ease-in-out;
 }
 
-.product-card:hover {
+.product:hover {
     box-shadow: 0 0 7px rgba(20, 20, 20, 0.64);
 }
 
-.product-image-holder {
+.product-image {
     height: 75%;
     width: 100%;
     box-sizing: border-box;
     background-color: white;
 }
 
-.product-image-holder img{
+.product-image img{
     display: block;
     height: 100%;
     margin: auto;
@@ -155,7 +128,7 @@
     font-size: 1.4em;
 }
 
-#catalog-pages-nav-holder {
+#catalog-pages-indicator {
     height: 20px;
     display: block;
     text-align: center;
