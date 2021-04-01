@@ -1,2 +1,2 @@
 # Lab1Web
-Football game kit site
+Champions league goods store website
