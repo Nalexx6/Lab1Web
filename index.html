@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 	<title>Champions League Store</title>
 
@@ -16,23 +19,23 @@
 <body>
 	<div>
 		<header id="header">
-			<div class="content-block" id="header-content">
+			<div class="container">
+				<div class="content-block row d-flex" id="header-content">
+		            <div class="col-lg col-md-12" id="title-block">
+		                <img src="https://karllusbec.files.wordpress.com/2011/12/champions-league-logo.jpg" id="logo-img" alt="StoreLogo">
+		                <div id="title-text">
+		                    <p id="title">Champions League Store</p>
+		                    <p id="subtitle">Football<br>More than just a game</p>
+		                </div>
+		            </div>
 
-	            <div id="title-block">
-	                <img src="https://karllusbec.files.wordpress.com/2011/12/champions-league-logo.jpg" id="logo-img" alt="StoreLogo">
-	                <div id="title-text">
-	                    <p id="title">Champions League Store</p>
-	                    <p id="subtitle">Football<br>More than just a game</p>
-	                </div>
-	            </div>
-
-	            <div id="feedback-block">
-	                <p class="contact">+380 (50) 555 55 55</p>
-	                <p class="contact">+380 (98) 888 88 88</p>
-	                <p id="feedback-form-button">Feedback</p>
-	            </div>
-
-	        </div>
+		            <div class="col-lg col-md-12" id="feedback-block">
+		                <p class="contact">+380 (50) 555 55 55</p>
+		                <p class="contact">+380 (98) 888 88 88</p>
+		                <p id="feedback-form-button">Feedback</p>
+		            </div>
+		        </div>
+	    	</div>
 		</header>
 
 		<nav id="menu">
@@ -65,7 +68,7 @@
 	        </div>
     	</div>
 
-    	<div>
+    	<section>
         	<div class="content-block" id="content">
 
 	            <aside id="left-block">
@@ -101,10 +104,9 @@
 	            </aside>
 
 	            <div id="center-block">
-	                <div id="catalog-page-block">
-	                    <div class="catalog-page">
-
-	                        <div class="product">
+	                <div class="container" id="catalog-page-block">
+	                    <div class="catalog-page row d-flex justify-content-around">
+	                        <div class="product col-lg col-md-6 col-sm-12">
 
 	                            <div class="product-image">
 	                                <img src="https://db3ujbgzkl8k8.cloudfront.net/catalog/product/thumbnail/64989e828ed80e327524dc9c58995a44/image/230x230/110/80/l/i/liverpool_home_f.png" alt="Product image">
@@ -114,7 +116,7 @@
 
 	                            <p class="product-price">99.99 $</p>
 	                        </div>
-	                        <div class="product">
+	                        <div class="product col-lg col-md-6 col-sm-12">
 
 	                            <div class="product-image">
 	                                <img src="https://db3ujbgzkl8k8.cloudfront.net/catalog/product/thumbnail/a5b2e363f346519dd4eadca4477cef03/image/230x230/110/80/r/e/real_home_front.png" alt="Product image">
@@ -124,7 +126,7 @@
 
 	                            <p class="product-price">99.99 $</p>
 	                        </div>
-	                        <div class="product">
+	                        <div class="product col-lg col-md-6 col-sm-12">
 
 	                            <div class="product-image">
 	                                <img src="https://db3ujbgzkl8k8.cloudfront.net/catalog/product/thumbnail/3ae49a14f41bcbd27d26c59d3d63b1f8/image/230x230/110/80/b/a/bayern_home_front.png" alt="Product image">
@@ -134,7 +136,7 @@
 
 	                            <p class="product-price">99.99 $</p>
 	                        </div>
-	                        <div class="product">
+	                        <div class="product col-lg col-md-6 col-sm-12">
 
 	                            <div class="product-image">
 	                                <img src="https://db3ujbgzkl8k8.cloudfront.net/catalog/product/thumbnail/85b37c5e227a329a5623ef05bb7f6ee8/image/230x230/110/80/c/i/city_home_front.png" alt="Product image">
@@ -144,7 +146,7 @@
 
 	                            <p class="product-price">99.99 $</p>
 	                        </div>
-	                        <div class="product">
+	                        <div class="product col-lg col-md-6 col-sm-12">
 
 	                            <div class="product-image">
 	                                <img src="https://db3ujbgzkl8k8.cloudfront.net/catalog/product/thumbnail/3ae49a14f41bcbd27d26c59d3d63b1f8/image/230x230/110/80/b/a/barca_home_front.png" alt="Product image">
@@ -154,7 +156,7 @@
 
 	                            <p class="product-price">99.99 $</p>
 	                        </div>
-	                        <div class="product">
+	                        <div class="product col-lg col-md-6 col-sm-12">
 
 	                            <div class="product-image">
 	                                <img src="https://db3ujbgzkl8k8.cloudfront.net/catalog/product/thumbnail/d3e5635b904dcff572862f62032bca5e/image/230x230/110/80/j/u/juve_home_front.png" alt="Product image">
@@ -164,45 +166,46 @@
 
 	                            <p class="product-price">99.99 $</p>
 	                        </div>
-	                        
-	                    </div>
-	                </div>
+		                </div>
+	            	</div>
 
 	                <div id="catalog-pages-indicator">
 	                    <span style="font-weight: bold; color: blue;">1</span>  2  3  4  5  6  7
 	                </div>
 
 	                <div id="bottom-text">
-	                    The UEFA Champions League (abbreviated as UCL) is an annual club football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the competition winners through a group and knockout format. It is one of the most prestigious football tournaments in the world and the most prestigious club competition in European football, played by the national league champions (and, for some nations, one or more runners-up) of their national associations.
+	                   The UEFA Champions League (abbreviated as UCL) is an annual club football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the competition winners through a group and knockout format. It is one of the most prestigious football tournaments in the world and the most prestigious club competition in European football, played by the national league champions (and, for some nations, one or more runners-up) of their national associations.
 
 	                   Introduced in 1955 as the European Champion Clubs' Cup, commonly known as European Cup, it was initially a straight knockout tournament open only to the champions of Europe's domestic leagues, with its winner reckoned as the European club champion. The competition took on its current name in 1992, adding a round-robin group stage in 1991 and allowing multiple entrants from certain countries since 1997. It has since been expanded, and while most of Europe's national leagues can still only enter their champion, the strongest leagues now provide up to four teams. Clubs that finish next-in-line in their national league, having not qualified for the Champions League, are eligible for the second-tier UEFA Europa League competition, and from 2021, teams not eligible for the UEFA Europa League will qualify for a new third-tier competition called the UEFA Europa Conference League.
 	                </div>
 	            </div>
 	    	</div>
-		</div>
+		</section>
 	</div>
 	<footer id="footer">
-		<div class="content-block" id="footer-content">
+		<div class="container">
+			<div class="content-block row d-flex" id="footer-content">
 
-		    <div>
-		        2021. Champions League Store<br>
-		            champions_league_store@gmail.com
-		    </div>
+			    <div class="col-lg col-md-6 col-sm-12">
+			        2021. Champions League Store<br>
+			            champions_league_store@gmail.com
+			    </div>
 
-		    <div>
-		            <ul>
-		                <li><a href="#">Home</a></li>
-		                <li><a href="index.html">Catalog</a></li>
-		                <li><a href="#">Payment & Shipping</a></li>
-		                <li><a href="price-list.html">Price list</a></li>
-		                <li><a href="contacts.html">Contacts</a></li>
-		            </ul>
-		    </div>
+			    <div class="col-lg col-md-6 col-sm-12">
+			            <ul>
+			                <li><a href="#">Home</a></li>
+			                <li><a href="index.html">Catalog</a></li>
+			                <li><a href="#">Payment & Shipping</a></li>
+			                <li><a href="price-list.html">Price list</a></li>
+			                <li><a href="contacts.html">Contacts</a></li>
+			            </ul>
+			    </div>
 
-		    <div>
-		        	Used photos from:<br>
-		            <a href="https://store.uefa.com/eu_en/" target="_blank">The Official UEFA Champions League Store</a>
-		    </div>
+			    <div class="col-lg col-md-6 col-sm-12">
+			        	Used photos from:<br>
+			            <a href="https://store.uefa.com/eu_en/" target="_blank">The Official UEFA Champions League Store</a>
+			    </div>
+			</div>
 		</div>
     </footer>
 

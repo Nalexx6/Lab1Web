@@ -30,14 +30,14 @@
 }
 
 #title {
-    margin: 30px 5px;
+    margin-top: 20px;
     font-size: 2em;
     font-weight: bold;
 }
 
 #subtitle {
-    margin: 20px 5px;
-    position: absolute;
+    /*margin: 20px 5px;*/
+    /*position: absolute;*/
     bottom: 0;
     font-size: 1.4em;
     line-height: 1.4em;
@@ -54,6 +54,7 @@
     font-size: 1.5em;
     line-height: 1.2em;
     font-family: "PT Sans", sans-serif;
+    text-align: right;
 }
 
 #feedback-form-button {

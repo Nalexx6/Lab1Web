@@ -24,7 +24,7 @@ body {
 
 .content-block {
     display: block;
-    width: 980px;
+    max-width: 980px;
     height: 100%;
     margin: auto;
     padding: 0 10px;
