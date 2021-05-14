@@ -3,7 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>	
 
 	<title>Champions League Store</title>
 
@@ -14,6 +16,7 @@
    	<link rel="stylesheet" href="styles/path-styles.css">
     <link rel="stylesheet" href="styles/center-content-styles.css">
     <link rel="stylesheet" href="styles/footer-styles.css">
+    <link rel="stylesheet" href="styles/feedback-styles.css">
 
 </head>
 <body>
@@ -32,7 +35,7 @@
 		            <div class="col-lg col-md-12" id="feedback-block">
 		                <p class="contact">+380 (50) 555 55 55</p>
 		                <p class="contact">+380 (98) 888 88 88</p>
-		                <p id="feedback-form-button">Feedback</p>
+		                <p href="#feedback" class="m-0 feedback_link" id="feedback-form-button">Feedback</p>
 		            </div>
 		        </div>
 	    	</div>
@@ -45,18 +48,48 @@
 	                <li class="items-separator">|</li>
 	                <li><a href="index.html">Catalog</a>
 	                </li><li class="items-separator">|</li>
-	                <li><a href="#">Payment & Shipping</a></li>
+	                <li><a href="shipping.html">Payment & Shipping</a></li>
 	                <li class="items-separator">|</li>
 	                <li><a href="#">Price list</a></li>
 	                <li class="items-separator">|</li>
-	                <li><a href="#">Contacts</a></li>
+	                <li><a href="contacts.html">Contacts</a></li>
 	            </ul>
 	        </div>
 	    </nav>
 
-	    <div id="slider">
+<!-- 	    <div id="slider">
 	        <p style="color: white; text-align: center; margin: 0px;">SLIDER WILL BE HERE</p>
-    	</div>
+    	</div> -->
+    	<div>
+		    	<div class="content-block p-0" style="height: 400px; background-color: #f6f6f6">
+		        	<div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+					  	<div class="carousel-indicators">
+					    	<button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					    	<button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					    	<button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					  	</div>	
+					  	<div class="carousel-inner">
+					    	<div class="carousel-item active" data-bs-interval="4000">
+					      	<img src="https://img.uefa.com/imgml/uefacom/ucl/social/og-default.jpg" style="height: 400px;width:100%;object-fit:cover;" class="d-block w-100" alt="1">
+					    	</div>
+					    <div class="carousel-item" data-bs-interval="4000">
+					      	<img src="https://media.contentapi.ea.com/content/dam/ea/easports/fifa/champions-league/FIFA19-Hero-Tertiary-UEFA-xs-2x.jpg.adapt.crop191x100.1200w.jpg" style="height: 400px;width:100%;object-fit:cover;" class="d-block w-100" alt="2">
+					    </div>
+					    <div class="carousel-item" data-bs-interval="4000">
+					    	<img src="https://editorial.uefa.com/resources/0267-11b91bde3220-4de8bde5492f-1000/wtw_graphhic.jpg" style="height: 400px;width:100%;object-fit:cover;" class="d-block w-100" alt="3">
+					    </div>
+					  	</div>
+					  		<button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+					    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    		<span class="visually-hidden">Previous</span>
+					  		</button>
+					  		<button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+					    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    		<span class="visually-hidden">Next</span>
+					  		</button>
+					</div>
+		    	</div>
+	    	</div>
 
     	<div id="path">
 	        <div class="content-block" id="path-content">
@@ -180,7 +213,7 @@
 	                </div>
 	            </div>
 	    	</div>
-		</section>
+		</section>	
 	</div>
 	<footer id="footer">
 		<div class="container">
@@ -195,8 +228,8 @@
 			            <ul>
 			                <li><a href="#">Home</a></li>
 			                <li><a href="index.html">Catalog</a></li>
-			                <li><a href="#">Payment & Shipping</a></li>
-			                <li><a href="price-list.html">Price list</a></li>
+			                <li><a href="shipping.html">Payment & Shipping</a></li>
+			                <li><a href="#">Price list</a></li>
 			                <li><a href="contacts.html">Contacts</a></li>
 			            </ul>
 			    </div>
@@ -208,6 +241,46 @@
 			</div>
 		</div>
     </footer>
+
+	<div class="feedback" id="feedback">
+		<div class="feedback_body">
+			<div class="feedback_content">
+				<div class="feedback_close">
+					<a href="#"  style="text-decoration: none;">
+						<span>&#10006;</span>
+					</a>
+				</div>
+
+				<div class="feedback_title">Connect with us</div>
+
+				<form class="needs-validation" novalidate>
+
+				    <label for="validationCustom01" class="form-label">Name</label>
+				    <input type="text" class="form-control" id="feedback-name" required>
+					<div class="invalid-feedback">
+					   Please enter your name
+					</div>
+
+				    <label for="validationCustomUsername" class="form-label">Email</label>
+				    <input type="email" class="form-control" id="feedback-email" aria-describedby="inputGroupPrepend" required>
+				    <div class="invalid-feedback">
+				        Please enter a valid email.
+				    </div>
+
+				    <label for="validationCustom03" class="form-label">Message</label>
+				    <input type="text" class="form-control" id="feedback-message" style="height: 100px;" required>
+				    <div class="invalid-feedback">
+				    	Please enter something.
+				    </div>
+
+				    <button class="mt-2 btn btn-primary" type="submit">Submit form</button>
+				</form>
+
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="scripts/feedback-form.js"></script>
 
 </body>
 </html>
